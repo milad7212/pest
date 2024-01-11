@@ -4,10 +4,10 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  // { name: "Product", href: "#" },
+  { name: "محصولات", href: "#" },
+  { name: "درباره شرکت", href: "#" },
+  { name: "ارتباط با ما", href: "#" },
 ];
 
 export default function HeroWithImageTiles() {
