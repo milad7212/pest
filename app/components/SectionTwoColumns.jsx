@@ -1,12 +1,12 @@
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
 const benefits = [
-  "Competitive salaries",
-  "Flexible work hours",
-  "30 days of paid vacation",
-  "Annual team retreats",
-  "Benefits for you and your family",
-  "A great work environment",
+  "مغز پسته فندوقی",
+  "مغز پسته کله اکبری",
+  "مغز پسته کله قوچی",
+  "مغز پسته احمدآقایی",
+  "مغز پسته سفید نوق",
+  "پودر مغز پسته",
 ];
 
 export default function SectionTwoColumns() {
@@ -22,11 +22,15 @@ export default function SectionTwoColumns() {
             />
             <div className="w-full flex-auto">
               <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                Join our team
+                {/* Join our team */}
+                محصولات
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-300">
-                Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
+                {/* Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
                 magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                 */}
+                تمام مغز پسته های از پسته های دم بسته بدست می آید و باعث میشود
+                سم به آنها نرسد و سالم ترین مغز بدست امده باشد.
               </p>
               <ul
                 role="list"
@@ -42,14 +46,14 @@ export default function SectionTwoColumns() {
                   </li>
                 ))}
               </ul>
-              <div className="mt-10 flex">
+              {/* <div className="mt-10 flex">
                 <a
                   href="#"
                   className="text-sm font-semibold leading-6 text-indigo-400"
                 >
                   See our job postings <span aria-hidden="true">&rarr;</span>
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

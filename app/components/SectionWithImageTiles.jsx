@@ -17,14 +17,14 @@ export default function SectionWithImageTiles() {
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
               fugiat. Quasi aperiam sit non sit neque reprehenderit.
             </p>
-            <div className="mt-10 flex">
+            {/* <div className="mt-10 flex">
               <a
                 href="#"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Join our team <span aria-hidden="true">&rarr;</span>
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
             <div className="w-0 flex-auto lg:mr-auto lg:w-auto lg:flex-none lg:self-end">

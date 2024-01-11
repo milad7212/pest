@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import HeroWithImageTiles from "./components/HeroWithImageTiles";
 import SectionTwoColumns from "./components/SectionTwoColumns";
@@ -11,16 +12,18 @@ import OurTeam from "./components/OurTeam";
 import Companies from "./components/Companies";
 import FAQ from "./components/FAQ";
 import Contact from "./components/Contact";
+import ImagesWithDetails from "./components/ImagesWithDetails";
 
 export default function Home() {
   return (
     <div className="">
       <HeroWithImageTiles />
       <SectionTwoColumns />
+      <ImagesWithDetails />
       <SectionWithImageTiles />
       <Companies />
-      <SectionSimpleCentered />
-      <SectionSideBySide />
+      {/* <SectionSimpleCentered /> */}
+      {/* <SectionSideBySide /> */}
       <Stepped />
       <OurTeam />
       <Testimonials />
