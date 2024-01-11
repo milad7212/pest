@@ -19,7 +19,7 @@ export default function Home() {
     <div className="">
       <HeroWithImageTiles />
       <SectionTwoColumns />
-      <ImagesWithDetails />
+      {/* <ImagesWithDetails /> */}
       <SectionWithImageTiles />
       <Companies />
       {/* <SectionSimpleCentered /> */}
