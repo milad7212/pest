@@ -1,9 +1,11 @@
 import Image from "next/image";
+import HeroWithImageTiles from "./components/HeroWithImageTiles";
 
 export default function Home() {
   return (
     <div className="">
-      <p>hi</p>
+      <HeroWithImageTiles />
+      <p>Mohamad heidary</p>
     </div>
   );
 }
