@@ -69,12 +69,14 @@ export default function Contact() {
               </div>
             </div>
             <h2 className="text-3xl font-bold tracking-tight text-white">
-              Get in touch
+              {/* Get in touch */}
+              با ما تماس بگیرید
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-300">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
+              {/* Proin volutpat consequat porttitor cras nullam gravida at. Orci
               molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+              Arcu sed malesuada et magna. */}
+              با تماس با ما از جدیدترین محصولات و خدمات ما آگاه شوید.
             </p>
             <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
               <div className="flex gap-x-4">
@@ -86,9 +88,9 @@ export default function Contact() {
                   />
                 </dt>
                 <dd>
-                  545 Mavis Island
+                  رفسنجان_بازار بزرگ شهر
                   <br />
-                  Chicago, IL 99191
+                  شرکت پسته حیدری
                 </dd>
               </div>
               <div className="flex gap-x-4">
@@ -100,14 +102,14 @@ export default function Contact() {
                   />
                 </dt>
                 <dd>
-                  <a className="hover:text-white" href="tel:+1 (555) 234-5678">
-                    +1 (555) 234-5678
+                  <a className="hover:text-white" href="tel:+989134931668">
+                    09139431668
                   </a>
                 </dd>
               </div>
               <div className="flex gap-x-4">
                 <dt className="flex-none">
-                  <span className="sr-only">Email</span>
+                  <span className="sr-only">ایمیل</span>
                   <EnvelopeIcon
                     className="h-7 w-6 text-gray-400"
                     aria-hidden="true"
@@ -118,7 +120,7 @@ export default function Contact() {
                     className="hover:text-white"
                     href="mailto:hello@example.com"
                   >
-                    hello@example.com
+                    headari@gmail.com
                   </a>
                 </dd>
               </div>
@@ -137,7 +139,8 @@ export default function Contact() {
                   htmlFor="first-name"
                   className="block text-sm font-semibold leading-6 text-white"
                 >
-                  First name
+                  {/* First name */}
+                  نام
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -154,7 +157,8 @@ export default function Contact() {
                   htmlFor="last-name"
                   className="block text-sm font-semibold leading-6 text-white"
                 >
-                  Last name
+                  {/* Last name */}
+                  نام خانوادگی
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -166,7 +170,7 @@ export default function Contact() {
                   />
                 </div>
               </div>
-              <div className="sm:col-span-2">
+              {/* <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
                   className="block text-sm font-semibold leading-6 text-white"
@@ -182,13 +186,14 @@ export default function Contact() {
                     className="block w-full rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                   />
                 </div>
-              </div>
+              </div> */}
               <div className="sm:col-span-2">
                 <label
                   htmlFor="phone-number"
                   className="block text-sm font-semibold leading-6 text-white"
                 >
-                  Phone number
+                  {/* Phone number */}
+                  موبایل
                 </label>
                 <div className="mt-2.5">
                   <input
@@ -205,7 +210,7 @@ export default function Contact() {
                   htmlFor="message"
                   className="block text-sm font-semibold leading-6 text-white"
                 >
-                  Message
+                  پیام
                 </label>
                 <div className="mt-2.5">
                   <textarea
@@ -223,7 +228,8 @@ export default function Contact() {
                 type="submit"
                 className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
               >
-                Send message
+                {/* Send message */}
+                ارسال
               </button>
             </div>
           </div>
