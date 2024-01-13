@@ -23,7 +23,7 @@ export default function HeroWithImageTiles() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-8 w-auto" src="./images/pest.webp" alt="" />
+              <img className="h-8 w-auto" src="./images/pest.png" alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -67,7 +67,7 @@ export default function HeroWithImageTiles() {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-8 w-auto" src="./images/pest.webp" alt="" />
+                <img className="h-8 w-auto" src="./images/pest.png" alt="" />
               </a>
               <button
                 type="button"

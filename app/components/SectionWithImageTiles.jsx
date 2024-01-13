@@ -5,17 +5,23 @@ export default function SectionWithImageTiles() {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-              Our people
+              {/* Our people */}
+              برتری در هر لحظه: چرا باید مغز پسته ما را انتخاب کنید؟
             </h2>
-            <p className="mt-6 text-xl leading-8 text-gray-600">
-              Quasi est quaerat. Sit molestiae et. Provident ad dolorem
+            <p className="mt-6 text-xl leading-7 text-justify text-gray-600">
+              {/* Quasi est quaerat. Sit molestiae et. Provident ad dolorem
               occaecati eos iste. Soluta rerum quidem minus ut molestiae velit
-              error quod. Excepturi quidem expedita molestias quas.
+              error quod. Excepturi quidem expedita molestias quas. */}
+              با ما، لذت مغز پسته را تا چهارچوب برده و از مزه‌ی ویژه‌ای بهره‌مند
+              شوید. انتخاب مغز پسته ما به معنای انتخاب کیفیت بی‌نظیر، ایمنی و
+              تنوع محصولات است. مشتریان ما برای خریدهای خود از ما، تجربه
+              بی‌نظیری را تضمین می‌کنیم. همیشه در خدمت شما هستیم، آماده به ارائه
+              خدماتی با کیفیت و مطمئن برای شما.
             </p>
             <p className="mt-6 text-base leading-7 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+              {/* Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
               lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat. Quasi aperiam sit non sit neque reprehenderit.
+              fugiat. Quasi aperiam sit non sit neque reprehenderit. */}
             </p>
             {/* <div className="mt-10 flex">
               <a
