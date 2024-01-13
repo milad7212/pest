@@ -1,21 +1,21 @@
 const featuredTestimonial = {
-  body: "Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.",
+  body: "من خیلی اهل پسته هستم و همیشه دنبال مغز پسته‌های باکیفیت می‌گردم. مغز پسته‌های شما بهترین مغز پسته‌هایی بود که تا حالا خوردم. خیلی خوشمزه و تازه بودند. حتماً دوباره از شما خرید می‌کنم.",
   author: {
-    name: "Brenna Goyette",
-    handle: "brennagoyette",
+    name: "فاطمه احمدی",
+    // handle: "brennagoyette",
     imageUrl:
       "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80",
-    logoUrl: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg",
+    // logoUrl: "https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg",
   },
 };
 const testimonials = [
   [
     [
       {
-        body: "Laborum quis quam. Dolorum et ut quod quia. Voluptas numquam delectus nihil. Aut enim doloremque et ipsam.",
+        body: "من برای مهمونی تولدم مغز پسته سفارش دادم. مغز پسته‌ها خیلی خوشگل و خوشمزه بودند. مهمون‌ها خیلی تعریف کردند. خیلی ممنون از شما که باعث شدید مهمونی من خیلی خوب برگزار بشه.",
         author: {
-          name: "Leslie Alexander",
-          handle: "lesliealexander",
+          name: "سارا پورمحمدی",
+          // handle: "lesliealexander",
           imageUrl:
             "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -24,10 +24,10 @@ const testimonials = [
     ],
     [
       {
-        body: "Aut reprehenderit voluptatem eum asperiores beatae id. Iure molestiae ipsam ut officia rem nulla blanditiis.",
+        body: "من مغز پسته‌ها رو برای استفاده در شیرینی‌هایم سفارش دادم. کیفیت مغز پسته‌ها خیلی خوب بود و شیرینی‌ها خیلی خوشمزه شدن. خیلی ممنون از شما که محصولات باکیفیتی دارید.",
         author: {
-          name: "Lindsay Walton",
-          handle: "lindsaywalton",
+          name: "لیلی حسینی",
+          // handle: "lindsaywalton",
           imageUrl:
             "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -38,10 +38,10 @@ const testimonials = [
   [
     [
       {
-        body: "Voluptas quos itaque ipsam in voluptatem est. Iste eos blanditiis repudiandae. Earum deserunt enim molestiae ipsum perferendis recusandae saepe corrupti.",
+        body: "من مغز پسته‌ها رو برای استفاده در شیرینی‌های خانگی‌ام سفارش دادم. کیفیت مغز پسته‌ها خیلی خوب بود و شیرینی‌ها خیلی خوشمزه شدن. خیلی ممنون از شما که محصولات باکیفیتی دارید.",
         author: {
-          name: "Tom Cook",
-          handle: "tomcook",
+          name: "محمد حسنی ",
+          // handle: "tomcook",
           imageUrl:
             "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -50,10 +50,10 @@ const testimonials = [
     ],
     [
       {
-        body: "Molestias ea earum quos nostrum doloremque sed. Quaerat quasi aut velit incidunt excepturi rerum voluptatem minus harum.",
+        body: "مغز پسته‌های شما واقعاً عالی بودند. کیفیتشون فوق‌العاده بود و کاملاً تازه بودند. من خیلی راضی بودم. پاسخگویی شما هم خیلی خوب بود. خیلی سریع سفارش من رو ارسال کردید. حتماً دوباره از شما خرید می‌کنم.",
         author: {
-          name: "Leonard Krasner",
-          handle: "leonardkrasner",
+          name: " میلاد حسنی",
+          // handle: "leonardkrasner",
           imageUrl:
             "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
         },
@@ -97,10 +97,12 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
-            Testimonials
+            {/* Testimonials */}
+            نظرات
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            We have worked with thousands of amazing people
+            {/* We have worked with thousands of amazing people */}
+            نظرات برخی از مشتریان ما
           </p>
         </div>
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
@@ -118,7 +120,7 @@ export default function Testimonials() {
                 <div className="font-semibold">
                   {featuredTestimonial.author.name}
                 </div>
-                <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div>
+                {/* <div className="text-gray-600">{`@${featuredTestimonial.author.handle}`}</div> */}
               </div>
               <img
                 className="h-10 w-auto flex-none"
@@ -162,7 +164,7 @@ export default function Testimonials() {
                           <div className="font-semibold">
                             {testimonial.author.name}
                           </div>
-                          <div className="text-gray-600">{`@${testimonial.author.handle}`}</div>
+                          {/* <div className="text-gray-600">{`@${testimonial.author.handle}`}</div> */}
                         </div>
                       </figcaption>
                     </figure>

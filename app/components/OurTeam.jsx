@@ -30,11 +30,14 @@ export default function OurTeam() {
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
         <div className="mx-auto max-w-2xl">
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Meet our team
+            {/* Meet our team */}
+            با تیم ما آشنا شوید
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-400">
-            We’re a dynamic group of individuals who are passionate about what
-            we do.
+            {/* We’re a dynamic group of individuals who are passionate about what
+            we do. */}
+            ما گروهی پویا از افراد هستیم که به کاری که انجام می‌دهیم علاقه مندیم
+            و متخصص.
           </p>
         </div>
         <ul
