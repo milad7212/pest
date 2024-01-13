@@ -6,7 +6,7 @@ import SectionWithImageTiles from "./components/SectionWithImageTiles";
 import SectionSimpleCentered from "./components/SectionSimpleCentered";
 import FooterSimple from "./components/FooterSimple";
 import SectionSideBySide from "./components/SectionSideBySide";
-import Stepped from "./components/stepped";
+import Stepped from "./components/Stepped";
 import Testimonials from "./components/Testimonials";
 import OurTeam from "./components/OurTeam";
 import Companies from "./components/Companies";
